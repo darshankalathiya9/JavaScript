@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add_2_Number</title>
+  </head>
+  <body>
+    <input type="text" id="First" />
+    <input type="text" id="Second"/>
+    <button onclick="Sum()">Click me</button>
+
+    <script>
+      function Sum() {
+        var one = parseInt(document.getElementById("First").value);
+        var two = parseInt(document.getElementById("Second").value);
+
+        var add = one + two;
+
+        alert(add);
+      }
+    </script>
+  </body>
+</html>
