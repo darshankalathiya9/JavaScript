@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTypes</title>
+</head>
+<body>
+    <h1>Data Types in JS</h1>
+    <ol>
+        <li>Primitive DataTypes</li>
+        <ul>
+            <li>Number</li>
+            <li>Null</li>
+            <li>String</li>
+            <li>Symbol</li>
+            <li>Boolean</li>
+            <li>Bigint</li>
+            <li>Undefined</li>
+        </ul><br>
+        <li>Non-Primitive DataTypes</li>
+        <ul>
+            <li>Array</li>
+            <li>Object</li>
+        </ul>
+    </ol>
+
+    <script>
+
+        // Primitive DataType
+
+        var a = 10;                 // Number
+        var b = null;               // Null
+        var c = "DK";               // String
+        var d = Symbol("DK");       // Symbol
+        var e = true;               // Boolean
+        var f = 9624360699n;        // BigInt
+        var g;                      // Undefined
+
+        // console.log(a);
+        // console.log(typeof a);
+
+        // console.log(b);
+        // console.log(typeof b);
+
+        // console.log(c);
+        // console.log(typeof c);
+
+        // console.log(d);
+        // console.log(typeof d);
+
+        // console.log(e);
+        // console.log(typeof e);
+
+        // console.log(f);
+        // console.log(typeof f);
+
+        // console.log(g);
+        // console.log(typeof g);
+
+
+        // Non-Primitive DataType
+
+        // Array
+       // let marks = [80,85,90,95,99];       
+        let marks = [80,85,"DK",95,99];
+
+        console.log(marks);
+        console.log(marks.length);
+        console.log(marks[3]);
+        console.log(typeof marks);
+
+        // object
+            let Details = {
+            Name : "DK",
+            Age : 23,
+            Course : 'Full Stack Web Development',
+            Placement : true
+        }
+
+        console.log(Details);
+        console.log(typeof Details);
+
+
+    </script>
+</body>
+</html>

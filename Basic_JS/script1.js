@@ -1,0 +1,1 @@
+alert("I'm External JS in Body tag.")
